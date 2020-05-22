@@ -1,0 +1,20 @@
+/* pages/view/view.wxss *//* pages/test/test.wxss */
+.demo-text-1,.demo-text-2,.demo-text-3{
+  width: 33.3333%;
+  height: 40px;
+  margin: 0px 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.demo-text-1{
+  background-color: blue;
+}
+.demo-text-2{
+  background-color: red;
+}
+.demo-text-3{
+  background-color: greenyellow;
+}
+.flex-wrp {display: flex;}
+
+

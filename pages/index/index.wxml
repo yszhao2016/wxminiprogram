@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="heroList">
+      <scroll-view>
+          <view  wx:for="{{datas}}" wx:key="key"  class="heroItem" data-id="{{item.id}}" bindtap="gotoDetail" >
+            <image class="img" mode='scaleToFill' src="{{item.headimg}}"></image>
+            <text class="heroname">{{item.name}}</text>
+          </view>
+      </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/* pages/swiper/swiper.wxss */
+.demo-text-1,.demo-text-2,.demo-text-3{
+width: 100%;
+height: 100%;
+}
+.demo-text-1{
+  background-color: red;
+}
+.demo-text-2{
+  background-color: greenyellow;
+}
+.demo-text-3{
+  background-color: hotpink;
+}

@@ -1,0 +1,43 @@
+<!--pages/test/test.wxml-->
+<view class="container">
+  <view class="page-section-spacing scrollH">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <view class="scroll-view-item_H"  >
+        <text class="{{index === navIndex ? 'navItem active' : 'navItem'}}" 
+              data-item="1"
+              data-index="1"
+              bindtap="selectAear">测试</text>
+      </view>
+        <view class="scroll-view-item_H"  >
+        <text class="{{index === navIndex ? 'navItem active' : 'navItem'}}" 
+              data-item="2"
+              data-index="2"
+              bindtap="selectAear">测试</text>
+      </view>
+        <view class="scroll-view-item_H"  >
+        <text class="{{index === navIndex ? 'navItem active' : 'navItem'}}" 
+              data-item="3"
+              data-index="3"
+              bindtap="selectAear">测试</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view id="heroList">
+    <scroll-view scroll-y="true" style="height: 1040rpx;" bindscroll="scroll">
+      <view class='heroItem'>
+        <view class='hItem' >
+          <image class='hItemimg' data-item="1" bindtap="toDetail"  src="../../images/1.jpg"></image>
+        </view> 
+        <view class='hItem' >
+          <image class='hItemimg' data-item="2" bindtap="toDetail"  src="../../images/1.jpg"></image>
+        </view> 
+        <view class='hItem' >
+          <image class='hItemimg' data-item="3" bindtap="toDetail"  src="../../images/1.jpg"></image>
+        </view>
+        <view class='hItem' >
+          <image class='hItemimg' data-item="4" bindtap="toDetail"  src="../../images/1.jpg"></image>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

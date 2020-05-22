@@ -1,0 +1,106 @@
+/* pages/detail/detail.wxss */
+.headimg{
+  position: relative;
+  width: 100%;
+}
+.banner{width: 100%;}
+.skin-1,.skin-2{
+  width:100rpx;
+  height:100rpx;
+  position:absolute;
+  bottom: 25rpx;
+}
+.skin-1{
+  right: 10rpx;
+}
+.skin-2{
+  right: 130rpx;
+}
+.skillarea {
+  /* height: 1000rpx; */
+  padding: 0rpx 25rpx;
+  /* border: 1px solid green; */
+  
+}
+.skillicon{
+  float: left;
+  margin: 0rpx 18rpx;
+
+}
+.skillicon:first-child{
+  margin-left: 0px;
+}
+.icon{
+  width: 100rpx;
+  height: 100rpx;
+}
+.skillicons{
+  width: 100%;
+  padding:10rpx 0rpx;
+  line-height: 50rpx;
+}
+.sub-title{
+  font-size: large;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+}
+.heroattr{
+  width: 100%;
+  text-align: left;
+  font-size: 35rpx;
+}
+.skilltxt{
+  font-size: 32rpx;
+  padding:16rpx 0px;
+}
+/* .banner{
+  width: 100%;
+} */
+.skilladvice{} 
+.addskill{
+  width: 100%;
+  height: 100rpx;
+  /* border: 1px solid red; */
+  margin-top: 10rpx;
+}
+.skilldesc{
+  width: 50%;
+  /* border: 1px solid red; */
+  float: left;
+  /* height: 100px; */
+}
+.skilldesc image{
+  float:right;
+}
+.addskill-title,.addskill-name{
+  width: 100%;
+  height: 50rpx;
+}
+.addskill-txtarea{
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.addskill-title{
+  font-weight: 600;
+
+  float: left;
+}
+.addskill-name{
+  
+  float: left;
+}
+.speskill{
+  margin-top: 50rpx;
+}
+.speskill-txtarea{
+  float: left;
+  width: 40%;
+}
+.speskill image{
+  float: left;
+  margin-left: 25rpx;
+  margin-bottom:25rpx;
+}
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }  

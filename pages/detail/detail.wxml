@@ -1,0 +1,64 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+      <view class="headimg"> 
+            <image class="banner" src="../../images/525-bigskin-2.jpg" mode="widthFix"></image>
+            <image src='../../images/531-smallskin-2.jpg'  class="skin-1"></image>
+            <image src='../../images/531.jpg'  class="skin-2"></image> 
+      </view>
+      <view class="skillarea">
+          <view  class="sub-title">
+            <text>技能介绍</text>
+          </view>
+          <view class="skillicons clearfix">
+              <view wx:for="{{[1,2,3,4]}}" class="skillicon">
+                  <image  class="icon" mode="aspectFit" src="../../images/53100.png"></image>
+              </view>
+          </view>
+          <view class="heroattr">
+            <text>狂兽血性  </text>
+            <text>冷却值：40</text>
+            <text>消耗：100</text>
+          </view>
+          <view class="skilltxt" >
+              <text> 镜片包裹身体快速朝前突进并对路径上的敌人造成物理伤害，同时强化下次普攻攻击，额外造成两次物理伤害。
+              被动：当场上没有镜像存在时，会产生镜像一起朝前冲出，镜像存在2秒会复制本体除了大招外的所有行为
+              </text>
+          </view>
+          <view class="sub-title">
+              <text>技能加点建议</text>
+          </view>
+          <view  class="skilladvice">
+              <view class="addskill">
+                  <view class='skilldesc'>
+                      <view class="addskill-txtarea">
+                        <text class="addskill-title">主升</text>
+                        <text class="addskill-name">河豚手雷</text>
+                      </view>
+                      <image class="icon" mode="aspectFit" src="../../images/53100.png"></image>
+                  </view>
+                  <view  class='skilldesc'>
+                      <view  class="addskill-txtarea" style="margin-left:25rpx">
+                          <text class="addskill-title">副升</text>
+                          <text class="addskill-name">无敌鲨嘴炮</text>
+                      </view>
+                      <image class="icon" mode="aspectFit" src="../../images/53100.png"></image>
+                  </view>
+               </view>
+             <view class="speskill">
+                <view  class="speskill-txtarea">
+                    <text class="addskill-title">召唤师技能</text>
+                    <text class="addskill-name">闪现/终结</text>
+                </view>
+                <image class="icon" mode="aspectFit" src="../../images/53100.png"></image>
+                <image class="icon" mode="aspectFit" src="../../images/53100.png"></image>
+             </view>
+          </view>
+      </view>
+     
+      
+    
+  <view>
+
+  </view>
+</view>
+

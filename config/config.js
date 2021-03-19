@@ -1,9 +1,8 @@
 // 服务接口地址
-const base = 'http://yii2adv.study.webstudy.cc/api'
+const base = 'https://www.webstudy.cc/api'
 
 export default {
-  heroList: base + '/v1/heroes/heroinfo',
-  heroDetail: base + '/v1/heroes/heroDetail',
+  heroes: base + '/v1/heroes',
   word: base + '/word',
   wordNav: base + '/wordNav',
   wordDetail: base + '/wordDetail',
